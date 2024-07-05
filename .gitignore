@@ -1,0 +1,5 @@
+# configures of VS Code
+.vscode/
+
+# build up files
+build/
