@@ -3,9 +3,13 @@ project(main)
 
 set(CMAKE_CXX_STANDARD 17)
 
+# set compiler
+set(CMAKE_C_COMPILER "D:\\vscode\\mingw_gcc_13.2.0\\mingw64\\bin\\gcc.exe")
+set(CMAKE_CXX_COMPILER "D:\\vscode\\mingw_gcc_13.2.0\\mingw64\\bin\\g++.exe")
+
 # set makefile generator
 set(CMAKE_GENERATOR "MinGW Makefiles")
-set(CMAKE_MAKE_PROGRAM "D:\\vscode\\mingw64\\bin\\make")
+set(CMAKE_MAKE_PROGRAM "D:\\vscode\\mingw_gcc_13.2.0\\mingw64\\bin\\make")
 
 # don't generate clangd commands
 set(CMAKE_EXPORT_COMPILE_COMMANDS OFF)
